@@ -79,6 +79,12 @@ if(state==9){
       digitalWrite(sv9, HIGH);
 
 }
+if(state==10){
+  digitalWrite(sv10, HIGH);
+}
+if(state==11){
+  digitalWrite(sv11, HIGH);
+}
 if(state==0){
   digitalWrite(sv1, LOW);
   digitalWrite(sv2, LOW);
