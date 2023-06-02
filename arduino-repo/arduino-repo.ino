@@ -107,7 +107,7 @@ if(state==90){
 
 }
 if(state == 91){
-    digitalWrite(sv9, HIGH);
+    digitalWrite(sv9, LOW);
   }
 if(state==100){
   digitalWrite(sv10, HIGH);
@@ -139,7 +139,7 @@ if(state==0){
   digitalWrite(sv9, LOW);
   digitalWrite(sv10, LOW);
   digitalWrite(sv11, LOW);
-  digitalWrite(sv12, HIGH);
+  digitalWrite(sv12, LOW);
 
 }
 if(state == 1){
